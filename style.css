@@ -81,6 +81,7 @@ h3 {
 }
 
 .boton-continue {
+  border: none;
   background-color: var(--Dark-gray-blue);
   border-radius: 2rem;
   display: flex;
