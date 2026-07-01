@@ -81,7 +81,6 @@ h3 {
 }
 
 .boton-continue {
-  border: none;
   background-color: var(--Dark-gray-blue);
   border-radius: 2rem;
   display: flex;
@@ -90,12 +89,15 @@ h3 {
   justify-content: center;
   color: var(--White);
   font-size: medium;
+  border: none;
 
-  &:hover{
-    background-image: linear-gradient(var(--Light-slate-blue), var(--Light-royal-blue));
+  &:hover {
+    background-image: linear-gradient(
+      var(--Light-slate-blue),
+      var(--Light-royal-blue)
+    );
     cursor: pointer;
   }
-
 }
 
 .titulo {
