@@ -43,7 +43,7 @@ body {
 main {
   background-color: var(--White);
   border-radius: 2rem;
-  width: clamp(600px, 90vw, 50rem);
+  width: clamp(35rem, 90vw, 50rem);
   display: flex;
   flex-direction: row;
 }
@@ -177,7 +177,7 @@ img {
   height: 1rem;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 23.4rem) {
   body {
     justify-content: flex-start;
   }
